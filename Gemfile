@@ -6,6 +6,9 @@ gem 'rails', '4.2.1'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3', group: [:development, :test]
 
+# Use Foundation Framework for styles
+gem 'foundation-rails'
+
 # Use postgresql as the database for production
 group :production do
   gem 'pg'
